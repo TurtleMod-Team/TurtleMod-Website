@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0f0d;
+    color: white;
+}
+
+header {
+    background: #0a0c0a;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00ff88;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff88;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+.content {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #00ff88;
+    font-size: 42px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.download-box,
+.donate-box {
+    background: #111;
+    border: 2px solid #00ff88;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.download-box a,
+.donate-box a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #00ff88;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.download-box a:hover,
+.donate-box a:hover {
+    background: #00cc6a;
+}
