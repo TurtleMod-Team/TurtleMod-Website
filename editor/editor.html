@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurtleMod IDE</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">TurtleMod IDE</div>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../docs.html">Docs</a>
+        <a href="../about.html">About</a>
+        <a href="../downloads.html">Downloads</a>
+        <a href="../donate.html">Donate</a>
+    </nav>
+</header>
+
+<div class="editor-container">
+
+    <!-- Toolbar -->
+    <div class="editor-toolbar">
+        <button id="runBtn">Run</button>
+        <button id="stopBtn">Stop</button>
+        <button id="clearBtn">Clear</button>
+        <button id="saveBtn">Save</button>
+        <button id="loadBtn">Load</button>
+    </div>
+
+    <div class="editor-main">
+
+        <!-- Block Palette -->
+        <div class="editor-sidebar">
+            <h2>Blocks</h2>
+            <div id="blockPalette">
+                <!-- Blocks will be injected by editor.js -->
+            </div>
+        </div>
+
+        <!-- Workspace -->
+        <div class="editor-workspace">
+            <h2>Workspace</h2>
+            <div id="workspaceArea">
+                <!-- User drags blocks here -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Output / Canvas -->
+    <div class="editor-output">
+        <h2>Output</h2>
+        <canvas id="turtleCanvas" width="500" height="300"></canvas>
+        <pre id="consoleOutput"></pre>
+    </div>
+
+</div>
+
+<script src="editor.js"></script>
+
+</body>
+</html>
